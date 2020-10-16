@@ -2,4 +2,4 @@
 DEBUG = True
 
 # 七牛云的baseUrl
-BASE_URL = "后期更换为服务器的url"
+BASE_URL = "http://qiak0fqjn.hn-bkt.clouddn.com/"

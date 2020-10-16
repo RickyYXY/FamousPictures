@@ -35,7 +35,7 @@ def upload_pic_to_qiniu(filename, filepath):
     q = Auth(access_key, secret_key)
 
     # 要上传的空间
-    bucket_name = 'ytools'
+    bucket_name = 'famous-picture'
 
     # 生成上传 Token，可以指定过期时间等
     token = q.upload_token(bucket_name, filename, 3600)

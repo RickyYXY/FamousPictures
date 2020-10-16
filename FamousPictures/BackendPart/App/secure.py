@@ -11,5 +11,5 @@
 #                                                                        DATABASE)
 # SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-QINIU_AK = '更换成你们的ak'  # 七牛云存储的 ak
-QINIU_SK = '更换成你们的sk'  # 七牛云存储的 sk
+QINIU_AK = 'h1E1mid8K0zRr848y7uTIPi18GyXnDuzkaLkmW4C'  # 七牛云存储的 ak
+QINIU_SK = '6x4bFwamzO0ebMWnNfrrAl8jyFLExXI4Oc2wTPD9'  # 七牛云存储的 sk
