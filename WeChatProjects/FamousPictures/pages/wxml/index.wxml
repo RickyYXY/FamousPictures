@@ -1,0 +1,52 @@
+<!--pages/wxml/index.wxml-->
+
+ <view class='container'>
+  <!-- <text>Choose your master-piece</text> -->
+  <image mode="aspectFit" src="{{imgpath2}}"></image>
+  <view class="but">
+    <view hidden="true" class="item_but">
+      <button bindtap='chooseImage' data-a="0" size="mini"
+       hover-class="view-box-btn-hover">Your Style</button>
+    </view>
+    <view class="item_but">
+       <button bindtap="choosetempalte" hover-class="view-box-btn-hover">Style</button> 
+
+       <!-- <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetbindchange">
+         <block wx:for-items="{{actionSheetItems}}">
+           <action-sheet-item bindtap="bind{{item.bindtap}}">{{item.txt}}</action-sheet-item>
+          </block>
+          <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+        </action-sheet> -->
+    </view>
+  </view>
+</view>
+
+
+<view class='container'>
+  <!-- <text>选择你想转变风格的图片！</text> -->
+  <image mode="aspectFit" src="{{imgpath1}}"></image>
+  <view class="item_but">
+    <button bindtap='chooseImage' data-a="1"
+  hover-class="view-box-btn-hover">Your Photo</button>
+  </view>
+ </view>
+
+ 
+<view class="container_confirm">
+  <view class="but">
+      <view class="item_but">
+        <button bindtap='uploadImage'
+        hover-class="view-box-btn-hover">Do It!</button>
+      </view>
+    </view>
+</view>
+
+<view class="container" hidden="{{hidden}}">
+  <image mode="aspectFit" src="{{imgpath3}}"></image>
+  <view class="but">
+    <view class="item_but">
+      <button bindtap='saveImage'
+      hover-class="view-box-btn-hover">Save</button>
+    </view>
+  </view>
+</view>

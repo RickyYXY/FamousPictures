@@ -1,0 +1,9 @@
+<!--pages/tempaltes/tempaltes.wxml-->
+<view class="background">
+  <view class="container">
+    <view wx:for="{{imgpaths}}" wx:key="*this" wx:for-index="idx" wx:for-item="itemName">
+      <image src="{{imgpaths[idx]}}" mode="aspectFill" bindtap="chooseTemplate" data-n="{{idx}}" class="img_box">
+      </image>
+    </view>
+</view>
+</view>

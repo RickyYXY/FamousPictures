@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/wxml/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tempaltes/tempaltes"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eff",
+    "navigationBarTitleText": "FamousPictures",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
