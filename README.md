@@ -1,2 +1,3 @@
 # FamousPictures
-一秒生成各种风格的世界名画
+Easily generate a famous style picture by a simple WeChat small program!
+Try to "paint" more easily!
